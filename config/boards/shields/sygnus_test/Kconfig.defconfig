@@ -1,0 +1,16 @@
+if SHIELD_SYGNUS_TEST_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Sygnus Test"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SYGNUS_TEST_LEFT || SHIELD_SYGNUS_TEST_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
