@@ -31,10 +31,3 @@
                     <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
-
-# ==== 4. sygnus_test_left.overlay ====
-#include "sygnus_test.dtsi"
-
-&default_transform {
-    col-offset = <0>;
-};
